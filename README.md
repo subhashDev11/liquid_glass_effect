@@ -30,7 +30,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  liquid_glass_effect: ^1.0.0
+  liquid_glass_effect: ^1.0.1
 ```
 
 Then run:
