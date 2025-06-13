@@ -138,38 +138,52 @@ LiquidGlassCard(
 
 ---
 
-### LiquidGlassButtons
+# Liquid Glass Buttons
 
-#### LiquidGlassElevatedButton
+Custom Flutter buttons with a frosted glass-style overlay and theme-based styling.
 
-**Properties:**
+## LiquidGlassElevatedButton
 
-- `onPressed` (VoidCallback): Press handler
-- `child` (Widget): Button content
-- `style` (ButtonStyle): Custom style overrides
+A themed wrapper around `ElevatedButton` with glass-effect overlays on hover and press.
 
-**Example:**
+### **Constructor Parameters**
+
+| Parameter      | Type            | Description                                               |
+|----------------|-----------------|-----------------------------------------------------------|
+| `onPressed`    | `VoidCallback?` | Callback invoked when the button is pressed              |
+| `child`        | `Widget`        | Content of the button, usually a `Text` widget            |
+| `style`        | `ButtonStyle?`  | Optional button style override                            |
+| `autofocus`    | `bool`          | Whether to auto-focus the button (default: `false`)       |
+| `clipBehavior` | `Clip`          | Clipping behavior (default: `Clip.none`)                  |
+
+### **Example**
 
 ```dart
 LiquidGlassElevatedButton(
-  onPressed: () => print('Pressed'),
-  child: Text('Submit'),
+onPressed: () => print('Submit pressed'),
+child: Text('Submit'),
 )
 ```
 
-#### LiquidGlassOutlinedButton
+## LiquidGlassOutlinedButton
 
-**Properties:**
+A themed wrapper around `OutlinedButton` with glass-effect overlays on hover and press.
 
-- Same as elevated button
-- `borderColor` (Color): Custom border color
+### **Constructor Parameters**
+| Parameter      | Type            | Description                                               |
+|----------------|-----------------|-----------------------------------------------------------|
+| `onPressed`    | `VoidCallback?` | Callback invoked when the button is pressed              |
+| `child`        | `Widget`        | Content of the button, usually a `Text` widget            |
+| `style`        | `ButtonStyle?`  | Optional button style override                            |
+| `autofocus`    | `bool`          | Whether to auto-focus the button (default: `false`)       |
+| `clipBehavior` | `Clip`          | Clipping behavior (default: `Clip.none`)                  |
 
-**Example:**
+### **Example**
 
 ```dart
 LiquidGlassOutlinedButton(
-  onPressed: () => print('Pressed'),
-  child: Text('Cancel'),
+onPressed: () => print('Submit pressed'),
+child: Text('Submit'),
 )
 ```
 

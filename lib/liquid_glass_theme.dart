@@ -147,13 +147,13 @@ ThemeData createLiquidGlassTheme({
       surfaceTintColor: Colors.transparent,
       shadowColor: Colors.transparent,
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       elevation: 0,
       margin: EdgeInsets.zero,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
       surfaceTintColor: Colors.transparent,
     ),
-    dialogTheme: const DialogTheme(
+    dialogTheme: const DialogThemeData(
       backgroundColor: Color(0xFFF2F2F7),
       surfaceTintColor: Colors.transparent,
       elevation: 0,
