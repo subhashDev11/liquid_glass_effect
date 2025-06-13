@@ -20,9 +20,9 @@ flutter:
 
 screenshots:
   - description: 'Liquid glass ui example with weather app.'
-    path: screenshots/scrs1.png
+    path: screenshots/scrs1.jpg
   - description: 'Liquid glass ui example with weather app.'
-    path: screenshots/scrs2.png
+    path: screenshots/scrs2.jpg
 
 topics:
   - liquid-glass-ui
