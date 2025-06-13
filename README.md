@@ -1,5 +1,7 @@
 # Liquid Glass Effect - Flutter Package Documentation
-![ScreenRecording2025-06-13at12.43.16PMonline-video-cutter.com-ezgif.com-video-to-gif-converter.gif](../../../../../Desktop/ScreenRecording2025-06-13at12.43.16PMonline-video-cutter.com-ezgif.com-video-to-gif-converter.gif)
+
+![ScreenRecording2025-06-13at12 43 16PMonline-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/6d858dac-c8e9-4378-b2cf-38546ffdd93e)
+
 ## Table of Contents
 
 1. [Overview](#overview)
