@@ -1,7 +1,7 @@
 name: liquid_glass_effect
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "A flutter package to create a liquid glass effect ui."
+version: 1.0.0
+homepage: https://github.com/subhashDev11/liquid_glass_effect.git
 
 environment:
   sdk: ^3.7.0
@@ -18,3 +18,15 @@ dev_dependencies:
 
 flutter:
 
+screenshots:
+  - description: 'Liquid glass ui example with weather app.'
+    path: screenshots/scrs1.png
+  - description: 'Liquid glass ui example with weather app.'
+    path: screenshots/scrs2.png
+
+topics:
+  - liquid-glass-ui
+  - liquid-glass-effect
+  - liquid-glass-theme
+  - liquid-glass-card
+  - ios26-like-liquid-glass-ui

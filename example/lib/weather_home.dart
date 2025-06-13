@@ -123,7 +123,7 @@ class _WeatherHomeState extends State<WeatherHome> {
         const SizedBox(height: 16),
         Table(
           border: TableBorder.symmetric(
-            inside: BorderSide(color: Colors.white.withOpacity(0.1)),
+            inside: BorderSide(color: Colors.white.withValues(alpha:0.1)),
           ),
           children: [
             const TableRow(
@@ -197,7 +197,7 @@ class _WeatherHomeState extends State<WeatherHome> {
         const SizedBox(height: 16),
         Text(
           '3:49 PM  Jun 11, 2025',
-          style: TextStyle(color: Colors.white.withOpacity(0.8)),
+          style: TextStyle(color: Colors.white.withValues(alpha:0.8)),
         ),
       ],
     );
@@ -259,7 +259,7 @@ class _CalendarDay extends StatelessWidget {
       decoration:
           isSelected
               ? BoxDecoration(
-                color: Colors.white.withOpacity(0.2),
+                color: Colors.white.withValues(alpha:0.2),
                 shape: BoxShape.circle,
               )
               : null,
@@ -269,9 +269,9 @@ class _CalendarDay extends StatelessWidget {
           style: TextStyle(
             color:
                 isDisabled
-                    ? Colors.white.withOpacity(0.3)
+                    ? Colors.white.withValues(alpha:0.3)
                     : isHeader
-                    ? Colors.white.withOpacity(0.7)
+                    ? Colors.white.withValues(alpha:0.7)
                     : Colors.white,
             fontWeight: isHeader ? FontWeight.bold : FontWeight.normal,
           ),

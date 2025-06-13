@@ -116,7 +116,7 @@ ThemeData createLiquidGlassTheme({
   ).copyWith(
     overlayColor: WidgetStateProperty.resolveWith<Color>((states) {
       if (states.contains(WidgetState.pressed)) {
-        return effectiveColorScheme.primary.withOpacity(0.2);
+        return effectiveColorScheme.primary.withValues(alpha:0.2);
       }
       return Colors.transparent;
     }),
@@ -131,7 +131,7 @@ ThemeData createLiquidGlassTheme({
   ).copyWith(
     overlayColor: WidgetStateProperty.resolveWith<Color>((states) {
       if (states.contains(WidgetState.pressed)) {
-        return effectiveColorScheme.primary.withOpacity(0.1);
+        return effectiveColorScheme.primary.withValues(alpha:0.1);
       }
       return Colors.transparent;
     }),
